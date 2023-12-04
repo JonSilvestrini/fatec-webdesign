@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    background-image: url("../images/bg.jpg");
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2)
+}
+
+nav{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 96px;
+    background-color: #EBEBEB;
+}
+
+nav a{
+    text-decoration: none;
+    color: #40545F;
+    padding-right: 45px;
+    font-style: italic;
+}
+
+.webdesign{
+    background-image: url("../images/header.jpg");
+    height: 540px;
+    position: relative;
+}
+
+.webdesign h1{
+    position: absolute;
+    right: 96px;
+    bottom: 96px;
+    color: #EBEBEB;
+    font-size: 48px;
+    margin: 0px;
+    font-style: italic;
+}
+
+.infowebdesign{
+    background-color: #EBEBEB;
+}
+.estagio{
+    background-color: #40545F;
+    color: #EBEBEB;
+}
+.estagiosPrimeiraLinha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.estagiosPrimeiraLinha div{
+    width: 170px;
+    padding-bottom: 64px;
+}
+
+.estagioSegundoBloco{
+    display: flex;
+    padding-bottom: 64px;
+}
+
+.estagioSegundoBloco img{
+    padding-right: 30px;
+}
+
+.estagioSegundoBloco h3{
+    margin-top: 0px;
+}
+
+.estagioSegundoBloco p {
+    margin-bottom: 0px;
+}
+.estagioTerceiroBloco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.estagioTerceiroBloco div{
+    width: 275px;
+}
+
+.fatec{
+    background-image: url("../images/bg-vermelho.jpg");
+    color: #EBEBEB;
+    text-align: center
+}
+
+.fatec h3{
+    font-size: 40px;
+}
+
+.fatec h2{
+    font-size: 90px;
+}
+
+footer{
+    background-color: #EBEBEB;
+    height: 94px;
+    padding-left: 96px;
+}
+
+footer address{
+    padding-top: 19px;
+    margin-bottom: 19px;
+}
+
+footer h3{
+    margin: 0;
+}
+
+.espacamento{
+    padding: 96px;
+}
